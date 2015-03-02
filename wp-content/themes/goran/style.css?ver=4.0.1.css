@@ -3041,10 +3041,18 @@ footer .site-info {
   }
 }
 
-@media screen and (max-width: 1019px) { 
+@media screen and (max-width: 768px) {
+  .portfolio-entry-mobile-first-item-row,
+  .portfolio-entry-mobile-last-item-row {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 1019px) { 
   .site-branding{
     width: 400px;
   }
+}
+@media screen and (max-width: 1019px) { 
   .site-logo-link{
     float: left;
     clear: none;
